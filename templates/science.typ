@@ -18,14 +18,14 @@
 
   // Fonts
   let title_font(body) = text(font: "Playfair Display", weight: "bold", body)
-  let sans_font(body) = text(font: "PT Sans", tracking: -0.02em, body)
+  let sans_font(body) = text(font: "Barlow", tracking: -0.02em, body)
   let body_font(body) = text(font: "Libertinus Serif", weight: 500, tracking: -0.02em, body)
-  let caps_sans_font(body) = text(font: "Roboto", weight: 700, tracking: .08em, upper(body))
+  let caps_sans_font(body) = text(font: "Barlow", weight: 700, tracking: .08em, upper(body))
 
   set par(justify: true)
   show footnote.entry: body => {
     show: sans_font
-    set text(size: 7pt, weight: "medium", stretch: 80%)
+    set text(size: 7pt, weight: "medium", stretch: 90%)
     set par(first-line-indent: 0pt, hanging-indent: 0pt)
     body
   }
@@ -49,7 +49,7 @@
       #h(2em)
       #caps_sans_font(text(weight: "regular", size: 0.9em, journal_publish_date))
       #h(1fr)
-      #text(weight: "black", context counter(page).display())
+      #text(weight: "bold", context counter(page).display())
     ],
   )
 
@@ -75,7 +75,7 @@
     #v(0.3em)
 
     #show: sans_font
-    #text(weight: "bold", size: 9pt)[ #authors ]
+    #text(weight: "bold", size: 9pt, stretch: 90%)[ #authors ]
 
     #v(1em)
 
