@@ -75,7 +75,7 @@
     #v(0.3em)
 
     #show: sans_font
-    #text(weight: "bold", size: 9pt, stretch: 90%)[ #authors ]
+    #text(weight: "medium", size: 9pt, stretch: 90%)[ #authors ]
 
     #v(1em)
 
