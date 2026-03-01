@@ -85,9 +85,11 @@
     #hl
   ]
 
-  show: body_font
-  show title: title_font
-  set text(size: 9.5pt)
+  block()[
+    #show: body_font
+    #show title: title_font
+    #set text(size: 9.5pt)
 
-  body
+    #body
+  ]
 }

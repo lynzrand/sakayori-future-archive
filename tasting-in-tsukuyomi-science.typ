@@ -1,8 +1,10 @@
-#import "nature_template.typ": nature_article
-#show: nature_article(
+#import "science_template.typ": science_article
+#counter(page).update(203)
+
+#show: science_article(
+  [Brain Computer Interface],
   [
-    A Modular Toolchain for Gustatory Rendering in VR:
-    High-Variety Taste Synthesis and Compatibility with Existing Software Architectures
+    High-Variety Taste Synthesis via Ultrasound Deep Brain Stimulation
   ],
   [
     Iroha Sakayori @sakayori_labs,
@@ -28,12 +30,7 @@
       text: [Black Onyx Co., Akasaka, Minato-ku, Tokyo 107-0052, Japan.],
     ),
   ),
-  meta_left: hl => [
-    * https://doi.org/10.80000/2035.58.168 * #hl
-    * Received: 1 October 2035 * #hl
-    * Accepted: 17 January 2036 * #hl
-    * Open access *
-  ],
+  journal_publish_date: "2 February 2036",
 )
 
 
@@ -46,5 +43,4 @@ A complementary approach is to modulate gustatory perception at the neural level
 Here we introduce a modular toolchain for gustatory rendering designed for integration into existing VR application stacks. The toolchain translates semantic “flavour intents” and in-world events into parametrized spatiotemporal stimulation programs, mediates them through participant-specific calibration models, and executes them through a deterministic runtime aligned with the application’s update loop and event system. The toolchain is organized as separable components: an authoring layer for taste assets and timelines; a compilation layer that produces stimulation programs subject to constraints; a runtime renderer responsible for scheduling, mixing and latency control; and a device abstraction layer supporting multiple ultrasound actuation back ends.
 
 This work makes three contributions. First, we provide an end-to-end software architecture that makes gustatory effects authorable and deployable in interactive VR without requiring bespoke application logic. Second, we demonstrate high-variety taste synthesis, including canonical taste qualities and higher-order mixtures, with repeatability suitable for interactive experiences in controlled experiments. Third, we characterize integration properties relevant to production systems, including end-to-end latency, synchronization hooks and content authoring workflows. Together, these results suggest that gustation can be incorporated into VR as a programmable modality, closing a long-standing gap in immersive systems and enabling new forms of interaction and narrative design.
-
 
