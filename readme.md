@@ -24,8 +24,8 @@ You will need [Typst][] to compile the documents.
 
 Available templates:
 
-- `templates/nature.typ` -- A _Nature_-style article template (_Nurture_).
-- `templates/science.typ` -- A _Science_-style article template (_Sentience_).
+- `templates/nature.typ` -- A _Nature_-style article template (_Natura_).
+- `templates/science.typ` -- A _Science_-style article template (_Scientia_).
 - `templates/cell.typ` -- A _Cell_-style article template (_Cyte_).
 
 You will need the following fonts installed to use the templates:
