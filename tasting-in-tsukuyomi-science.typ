@@ -1,4 +1,4 @@
-#import "science_template.typ": science_article
+#import "templates/science.typ": science_article
 #counter(page).update(203)
 
 #show: science_article(

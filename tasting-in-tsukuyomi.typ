@@ -1,4 +1,4 @@
-#import "nature_template.typ": nature_article
+#import "templates/nature.typ": nature_article
 #show: nature_article(
   [
     A Modular Toolchain for Gustatory Rendering in VR:
