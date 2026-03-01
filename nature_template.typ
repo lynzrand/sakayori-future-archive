@@ -5,14 +5,19 @@
   affiliations: (),
   meta_left: hl => [],
   category: "Article",
-  journal: "Longshot",
-  journal_url: "www.longshot.luna",
+  journal: "Nurture",
+  journal_url: "www.nurture.luna",
 ) = body => {
   set line(stroke: 0.5pt)
+
+  // Horizontal line
   let hl = line(length: 100%)
+
+  // Fonts
   let title_font(body) = text(font: "Sofia Sans", tracking: -.03em, body)
   let sans_font(body) = text(font: "Inter", body)
-  let body_font(body) = text(font: "PT Sans", weight: 400, body)
+  let body_font(body) = text(font: "Fira Sans", weight: 400, body)
+
   set par(justify: true)
   show footnote.entry: body => {
     show: body_font
@@ -21,6 +26,7 @@
     body
   }
 
+  // Page style
   set page(columns: 2, paper: "a4", margin: 1.3cm, footer: sans_font[
     #set align(right)
     #set text(size: 7pt)
