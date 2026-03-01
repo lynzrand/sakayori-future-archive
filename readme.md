@@ -17,19 +17,22 @@ You will need [Typst][] to compile the documents.
 
 Available templates:
 
-- `templates/nature.typ` -- A Nature-style article template.
-- `templates/science.typ` -- A Nature-style article template.
+- `templates/nature.typ` -- A _Nature_-style article template (_Nurture_).
+- `templates/science.typ` -- A _Science_-style article template (_Sentience_).
+- `templates/cell.typ` -- A _Cell_-style article template (_Cyte_).
 
 You will need the following fonts installed to use the templates:
 
-- For Nature:
+- For _Nature_:
   - [Sofia Sans](https://fonts.google.com/specimen/Sofia+Sans)
   - [Fira Sans](https://fonts.google.com/specimen/Fira+Sans)
   - [Inter](https://fonts.google.com/specimen/Inter)
-- For Science:
+- For _Science_:
   - [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
   - [Barlow](https://fonts.google.com/specimen/Barlow)
   - [PT Serif](https://fonts.google.com/specimen/PT+Serif)
+- For _Cell_:
+  - [Inter](https://fonts.google.com/specimen/Inter)
 
 Note that since Typst have not yet supported variable fonts,
 you must install the non-variable variants (i.e. those without VF) of the fonts.
