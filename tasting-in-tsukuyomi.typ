@@ -17,7 +17,7 @@
   affiliations: (
     (
       label: "sakayori_labs",
-      text: [Sakayori Labs, Institute of Digital Life, The University of Tokyo, Bunkyo-ku, Tokyo 113-8654, Japan.],
+      text: [Sakayori Labs, Institute of Digital Life, The University of Tokyo, Bunkyo-ku, Tokyo 113-8659, Japan.],
     ),
     (
       label: "tsukuyomi_org",
