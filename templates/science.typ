@@ -88,8 +88,11 @@
     #v(0.5cm)
   ]
 
+  show heading.where(depth: 1): body => text(stretch: 90%, size: 12pt, sans_font(body))
+  show heading.where(depth: 2): body => text(size: 10pt, sans_font(body))
+  show heading.where(depth: 3): body => text(size: 9pt, sans_font(body))
+
   block()[
-    #show title: sans_font
     #show: body_font
     #set text(size: 9pt)
     #set par(spacing: .5em, leading: .5em, first-line-indent: 1em)

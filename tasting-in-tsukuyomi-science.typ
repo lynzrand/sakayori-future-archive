@@ -2,9 +2,9 @@
 #counter(page).update(203)
 
 #show: science_article(
-  [Brain Computer Interface],
+  [Brain Science],
   [
-    High-Variety Taste Synthesis via Ultrasound Deep Brain Stimulation
+    High-speed, High Fidelity Bidirectional BCI for Real-time Android Control
   ],
   [
     Iroha Sakayori @sakayori_labs,

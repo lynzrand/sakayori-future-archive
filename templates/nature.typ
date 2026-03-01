@@ -85,10 +85,16 @@
     #hl
   ]
 
+  show heading.where(depth: 1): it => {
+    v(1.5em)
+    title_font(text(size: 16pt, tracking: 0pt, it))
+  }
+  show heading.where(depth: 2): it => title_font(text(size: 14pt, tracking: 0pt, it))
+  show heading.where(depth: 3): it => title_font(text(size: 12pt, tracking: 0pt, it))
   block()[
     #show: body_font
-    #show heading: title_font
     #set text(size: 9.5pt)
+    #set par(first-line-indent: 1em, leading: .6em, spacing: .6em)
 
     #body
   ]

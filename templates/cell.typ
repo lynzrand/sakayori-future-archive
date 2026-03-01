@@ -50,6 +50,14 @@
     )
     #v(.8em)
   ]
+  show heading.where(depth: 2): it => [
+    #text(
+      fill: gray.darken(40%),
+      weight: "black",
+      size: 10pt,
+      it,
+    )
+  ]
 
   // Title
   place(scope: "parent", float: true, top)[
