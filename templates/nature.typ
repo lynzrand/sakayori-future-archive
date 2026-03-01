@@ -87,7 +87,7 @@
 
   block()[
     #show: body_font
-    #show title: title_font
+    #show heading: title_font
     #set text(size: 9.5pt)
 
     #body
