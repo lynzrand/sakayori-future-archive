@@ -30,6 +30,17 @@ you must install the non-variable variants (i.e. those without VF) of the fonts.
 
 [typst]: https://typst.app
 
+## Contributing
+
+All kinds of contributions are welcomed,
+including refinements and/or creation of templates and articles.
+
+As a fan fiction, we do not forsee the submission of full articles --
+title pages should be well enough for this purpose.
+However, we will be greatly surprised
+if you (or you with the help of LLMs) can make a full one.
+That'll be some really epic fan fiction.
+
 ## Similar fan fiction
 
 - [LunarXiv](https://github.com/takko9ei/lunarXiv)
