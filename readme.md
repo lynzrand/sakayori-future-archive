@@ -30,6 +30,11 @@ you must install the non-variable variants (i.e. those without VF) of the fonts.
 
 [typst]: https://typst.app
 
+## Similar fan fiction
+
+- [LunarXiv](https://github.com/takko9ei/lunarXiv)
+- [Sakayori Director's rumor board (2ch)](https://github.com/RaphllA/tukuyomi-site)
+
 ## License
 
 WTFPL.
