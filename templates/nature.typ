@@ -5,8 +5,8 @@
   affiliations: (),
   meta_left: hl => [],
   category: "Article",
-  journal: "Nurture",
-  journal_url: "www.nurture.luna",
+  journal: "Natura",
+  journal_url: "www.natura.luna",
 ) = body => {
   set line(stroke: 0.5pt)
 

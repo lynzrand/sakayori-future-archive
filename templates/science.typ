@@ -5,7 +5,7 @@
   abstract,
   affiliations: (),
   category: "Research Articles",
-  journal: "Sentience",
+  journal: "Scientia",
   journal_publish_date: "",
 ) = body => {
   set line(stroke: 0.5pt)
