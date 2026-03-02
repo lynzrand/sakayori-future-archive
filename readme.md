@@ -32,12 +32,12 @@ You will need the following fonts installed to use the templates:
 
 - For _Nature_:
   - [Sofia Sans](https://fonts.google.com/specimen/Sofia+Sans)
-  - [Fira Sans](https://fonts.google.com/specimen/Fira+Sans)
+  - [Merriweather Sans](https://fonts.google.com/specimen/Merriweather+Sans)
   - [Inter](https://fonts.google.com/specimen/Inter)
 - For _Science_:
   - [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
   - [Barlow](https://fonts.google.com/specimen/Barlow)
-  - [PT Serif](https://fonts.google.com/specimen/PT+Serif)
+  - [Libertinus Serif](https://fonts.google.com/specimen/Libertinus+Serif) (Default font in Typst)
 - For _Cell_:
   - [Inter](https://fonts.google.com/specimen/Inter)
 
