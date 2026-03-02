@@ -41,6 +41,9 @@ You will need the following fonts installed to use the templates:
   - [Libertinus Serif](https://fonts.google.com/specimen/Libertinus+Serif) (Default font in Typst)
 - For _Cell_:
   - [Inter](https://fonts.google.com/specimen/Inter)
+- For _Longshot_:
+  - [Sofia Sans](https://fonts.google.com/specimen/Sofia+Sans)
+  - [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) (need both widths)
 
 Note that since Typst have not yet supported variable fonts,
 you must install the non-variable variants (i.e. those without VF) of the fonts.
