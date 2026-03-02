@@ -121,7 +121,7 @@
   ]
 
   [
-    #box(width: 100%, inset: 1em, fill: white.darken(5%))[
+    #box(width: 100%, inset: 1em, fill: white.darken(5%), stroke: (left: red + 1pt))[
       *TL;DR:* #text(weight: "medium", tldr)
     ]
 
