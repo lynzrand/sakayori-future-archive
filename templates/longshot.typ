@@ -108,9 +108,9 @@
   ]
 
   set par(justify: true, leading: .7em, spacing: 1.4em)
-  set par.line(numbering: it => {
-    if (calc.rem(it, 10) == 0) { text(str(it), size: 7pt) }
-  })
+  // set par.line(numbering: it => {
+  //   if (calc.rem(it, 10) == 0) { text(str(it), size: 7pt) }
+  // })
   show heading.where(depth: 1): it => [
     #v(1.5em, weak: true)
     #it
