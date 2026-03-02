@@ -15,8 +15,8 @@
 
   // Fonts
   let title_font(body) = text(font: "Sofia Sans", tracking: -.03em, body)
-  let sans_font(body) = text(font: "Inter", body)
-  let body_font(body) = text(font: "Fira Sans", weight: 400, body)
+  let sans_font(body) = text(font: ("Inter", "Inter 18pt"), body)
+  let body_font(body) = text(font: "Merriweather Sans", weight: 400, body)
 
   set par(justify: true)
   show footnote.entry: body => {

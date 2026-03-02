@@ -8,12 +8,13 @@
   journal_url: "www.nurture.luna",
 ) = body => {
   let accent = purple
+
+  set text(font: ("Inter", "Inter 18pt"), size: 9pt, tracking: -.03em)
+  let title_font = it => text(font: "Inter 28pt", it)
   let title_type = body => {
     set text(tracking: -.05em)
-    body
+    title_font(body)
   }
-
-  set text(font: "Inter", size: 9pt, tracking: -.03em)
   set par(justify: true, spacing: .5em, leading: .5em)
   set page(
     paper: "a4",
