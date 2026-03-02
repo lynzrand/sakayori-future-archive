@@ -16,7 +16,7 @@
   // Fonts
   let title_font(body) = text(font: "Sofia Sans", tracking: -.03em, body)
   let sans_font(body) = text(font: ("Inter", "Inter 18pt"), body)
-  let body_font(body) = text(font: "Merriweather Sans", weight: 400, body)
+  let body_font(body) = text(font: "Merriweather Sans", tracking: -.03em, weight: 400, body)
 
   set par(justify: true)
   show footnote.entry: body => {
@@ -74,7 +74,7 @@
         #v(.5cm) #hl
 
         #show: body_font
-        #set text(size: 10pt)
+        #set text(size: 9pt)
         #set par(spacing: 1.1em, leading: 0.6em)
 
         #abstract
@@ -93,7 +93,7 @@
   show heading.where(depth: 3): it => title_font(text(size: 12pt, tracking: 0pt, it))
   block()[
     #show: body_font
-    #set text(size: 9.5pt)
+    #set text(size: 8.5pt)
     #set par(first-line-indent: 1em, leading: .6em, spacing: .6em)
 
     #body
