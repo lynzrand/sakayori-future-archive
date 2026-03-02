@@ -27,6 +27,7 @@ Available templates:
 - `templates/nature.typ` -- A _Nature_-style article template (_Natura_).
 - `templates/science.typ` -- A _Science_-style article template (_Scientia_).
 - `templates/cell.typ` -- A _Cell_-style article template (_Cyte_).
+- `templates/longshot.typ` -- A fictional, fast-track journal template (_Longshot_).
 
 You will need the following fonts installed to use the templates:
 
