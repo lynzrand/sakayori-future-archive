@@ -38,7 +38,7 @@
 
   set page(
     paper: "a4",
-    margin: (top: 2cm, left: 2cm, right: 4cm, bottom: 3cm),
+    margin: (top: 2cm, left: 2cm, right: 4cm, bottom: 2cm),
     header: stack(
       dir: ttb,
 

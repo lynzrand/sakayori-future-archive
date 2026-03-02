@@ -10,7 +10,7 @@
   let accent = purple
 
   set text(font: ("Inter", "Inter 18pt"), size: 9pt, tracking: -.03em)
-  let title_font = it => text(font: "Inter 28pt", it)
+  let title_font = it => text(font: ("Inter", "Inter 28pt"), it)
   let title_type = body => {
     set text(tracking: -.05em)
     title_font(body)
