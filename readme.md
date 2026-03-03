@@ -22,12 +22,45 @@
 
 You will need [Typst][] to compile the documents.
 
+We provide a `Makefile` for compiling the `.typ` documents in the repository root.
+
+### Makefile usage
+
+Build first-page PDF and PNG outputs:
+
+```sh
+make
+```
+
+Build only PDFs:
+
+```sh
+make pdf
+```
+
+Build only PNGs:
+
+```sh
+make png
+```
+
+Remove generated outputs and dependency files:
+
+```sh
+make clean
+```
+
+The Makefile runs Typst with `--pages 1`, so only page 1 is rendered.
+It also emits Make-style dependency files using `--deps` and `--deps-format make`.
+
+### Templates
+
 Available templates:
 
 - `templates/nature.typ` -- A _Nature_-style article template (_Natura_).
 - `templates/science.typ` -- A _Science_-style article template (_Scientia_).
 - `templates/cell.typ` -- A _Cell_-style article template (_Cyte_).
-- `templates/longshot.typ` -- A fictional, fast-track journal template (_Longshot_).
+- `templates/longshot.typ` -- A fictional, fast-track engineering journal template (_Longshot_).
 
 You will need the following fonts installed to use the templates:
 
